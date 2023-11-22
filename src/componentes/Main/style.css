@@ -1,0 +1,67 @@
+#main{
+    width: 626px;
+    height: 486px;
+    
+    margin: 32px auto 64px;
+    /*margin-top: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 64px;*/
+    
+}
+#image {
+    width: 350px;
+    height: 238px;
+    margin: 0 auto 32px;
+    /*
+        cima, direita, esquerda e baixo
+        
+        margin-top: 0;
+        margin-right: auto;
+        margin-bottom: 32px;
+        margin-left: auto;
+    */
+    /*auto - preenche todos os espaços de maneira igualmente*/
+}
+
+#image img {
+    margin-bottom: 32px;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 49px;
+    line-height: 56px;
+    font-weight: 400;
+    /*negrito*/
+
+    margin-bottom: 16px;
+}
+
+h1 span {
+    /* span dentro do h1*/
+    color: #FF9900;
+    font-weight: 700;
+}
+
+span, a {
+    /* span e a*/
+    color: #FF9900;
+}
+
+p, #links {
+    color: #7D7987;
+
+    font-size: 15px;
+    line-height: 28px;
+}
+p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #7D7987;
+}
+.alaranjado {
+    color: #FF9900;
+}
